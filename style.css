@@ -234,14 +234,14 @@ nav a:hover{
 
   justify-content:center;
 
-  gap:25px;
+  gap:15px;
 
   flex-wrap:wrap;
 }
 
 .imagenes img{
 
-  width:300px;
+  width:420px;
 
   border-radius:25px;
 
