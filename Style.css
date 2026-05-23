@@ -282,4 +282,36 @@ footer p{
   font-size:18px;
 
   margin:10px 0;
+}.whatsapp{
+
+  position:fixed;
+
+  bottom:20px;
+
+  right:20px;
+
+  background:#ff8c00;
+
+  color:black;
+
+  padding:15px 20px;
+
+  border-radius:15px;
+
+  text-decoration:none;
+
+  font-weight:bold;
+
+  box-shadow:0 0 25px rgba(255,140,0,0.5);
+
+  transition:0.3s;
+
+  z-index:999;
+}
+
+.whatsapp:hover{
+
+  transform:scale(1.05);
+
+  box-shadow:0 0 35px rgba(255,140,0,0.8);
 }
