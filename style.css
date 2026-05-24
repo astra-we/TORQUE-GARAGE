@@ -239,15 +239,21 @@ nav a:hover{
   flex-wrap:wrap;
 }
 
-.imagenes img{
+.galeria img{
 
-  width:420px;
+  width:100%;
+
+  max-width:420px;
+
+  height:260px;
+
+  object-fit:cover;
 
   border-radius:25px;
 
-  transition:0.3s;
+  transition:0.4s;
 
-  box-shadow:0 0 25px rgba(0,0,0,0.5);
+  box-shadow:0 10px 25px rgba(0,0,0,0.5);
 }
 
 .imagenes img:hover{
